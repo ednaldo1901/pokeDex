@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteudo{
+    background-color: white;
+}
+.fundo{
+   
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+}
+
+.detalhes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.detalhe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 3.5652rem;
+}
+
+.simbolo{
+    font-size: 2.4rem;
+    font-weight: 100;
+    position: relative;
+    top:  .5rem;
+}
+
+.titlo{
+    color: aliceblue;
+    
+}
+.nome{
+    color: rgb(255, 255, 255);
+    font-size: 2.1rem ;
+    font-weight: 700;
+    position: relative;
+    top: 1.2rem;
+}
+
+ol.detalhe .tipo{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: .3rem;
+    width: 10rem;
+    border-radius: 1rem;
+    margin: 1rem;
+
+}
+li.detalhe img{
+    max-width: 9.625rem;
+}
+
+.powers{
+    position: relative;
+    top: 8rem;
+}
+
+.power{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 2rem;
+}
+
+.power-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+    font-size: .9rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+

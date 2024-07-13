@@ -4,6 +4,7 @@ const pokeApi = {};
 
 function convertDetailPokemon(pokeDetail) {
    const pokemon = new Pokemon();
+   pokemon.url = pokeDetail.url
    pokemon.number = pokeDetail.id;
    pokemon.name = pokeDetail.name;
 
